@@ -1,0 +1,27 @@
+imageRegistry: ghcr.io/your-org
+imageTag: "0.1.0"
+imagePullPolicy: IfNotPresent
+
+ml:
+  replicas: 1
+  resources: { requests: { cpu: 100m, memory: 256Mi }, limits: { memory: 512Mi } }
+
+api:
+  replicas: 2
+  resources: { requests: { cpu: 200m, memory: 512Mi }, limits: { memory: 1Gi } }
+
+web:
+  replicas: 2
+  resources: { requests: { cpu: 100m, memory: 192Mi }, limits: { memory: 384Mi } }
+
+# Use a managed Postgres in production. The password is read from an existing secret.
+database:
+  url: jdbc:postgresql://postgres:5432/inforce
+  user: inforce
+  existingSecret: inforce-db
+  passwordKey: password
+
+ingress:
+  enabled: false
+  className: nginx
+  host: inforce.example.com

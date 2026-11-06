@@ -1,0 +1,267 @@
+{
+  "_notice": "Passages are short paraphrased summaries written for this project, not the official text. Always read the linked source. 'verification' says how each date was checked.",
+  "regulations": [
+    {
+      "id": "B-20",
+      "title": "Residential Mortgage Underwriting Practices and Procedures",
+      "regulator": "OSFI",
+      "topic": "Mortgage underwriting"
+    },
+    {
+      "id": "B-10",
+      "title": "Third-Party Risk Management",
+      "regulator": "OSFI",
+      "topic": "Outsourcing and third parties"
+    },
+    {
+      "id": "E-21",
+      "title": "Operational Risk Management and Resilience",
+      "regulator": "OSFI",
+      "topic": "Operational risk"
+    }
+  ],
+  "documents": [
+    {
+      "doc_id": "b20-2017",
+      "reg_id": "B-20",
+      "kind": "guideline",
+      "title": "Guideline B-20 (2017 revision)",
+      "published": "2017-10-17",
+      "source_url": "https://www.osfi-bsif.gc.ca/Eng/fi-if/in-ai/Pages/b20let-0521.aspx",
+      "verification": "approximate: the benchmark-rate floor is confirmed by the May 2021 letter; the 2017 publication and 2018 effective dates are from memory"
+    },
+    {
+      "doc_id": "b20-2021-draft",
+      "reg_id": "B-20",
+      "kind": "draft",
+      "title": "Proposed minimum qualifying rate for uninsured mortgages (consultation, April 2021)",
+      "published": "2021-04-08",
+      "source_url": "https://www.osfi-bsif.gc.ca/en/news/osfi-proposes-new-minimum-qualifying-rate-uninsured-mortgages",
+      "verification": "verified"
+    },
+    {
+      "doc_id": "b20-2021-may",
+      "reg_id": "B-20",
+      "kind": "letter",
+      "title": "Amendments to the minimum qualifying rate for uninsured mortgages (May 2021)",
+      "published": "2021-05-20",
+      "source_url": "https://www.osfi-bsif.gc.ca/Eng/fi-if/in-ai/Pages/b20let-0521.aspx",
+      "verification": "verified"
+    },
+    {
+      "doc_id": "b20-2021-dec",
+      "reg_id": "B-20",
+      "kind": "letter",
+      "title": "Minimum qualifying rate letter (December 2021 annual review)",
+      "published": "2021-12-17",
+      "source_url": "https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/minimum-qualifying-rate-letter-2021",
+      "verification": "verified"
+    },
+    {
+      "doc_id": "b10-2009",
+      "reg_id": "B-10",
+      "kind": "guideline",
+      "title": "Guideline B-10: Outsourcing of Business Activities, Functions and Processes (2009 revision)",
+      "published": "2009-03-01",
+      "source_url": "https://www.torys.com/our-latest-thinking/publications/2022/05/osfi-b-10-beyond-outsourcing",
+      "verification": "approximate: year verified, day not verified"
+    },
+    {
+      "doc_id": "b10-2022-draft",
+      "reg_id": "B-10",
+      "kind": "draft",
+      "title": "Draft Guideline B-10: Third-Party Risk Management (consultation, April 2022)",
+      "published": "2022-04-27",
+      "source_url": "https://www.torys.com/our-latest-thinking/publications/2022/05/osfi-b-10-beyond-outsourcing",
+      "verification": "verified"
+    },
+    {
+      "doc_id": "b10-2023",
+      "reg_id": "B-10",
+      "kind": "guideline",
+      "title": "Guideline B-10: Third-Party Risk Management (final, 2023)",
+      "published": "2023-04-24",
+      "source_url": "https://www.torys.com/our-latest-thinking/publications/2023/05/osfi-b-10-third-party-risk-management",
+      "verification": "verified"
+    },
+    {
+      "doc_id": "e21-2016",
+      "reg_id": "E-21",
+      "kind": "guideline",
+      "title": "Guideline E-21: Operational Risk Management (2016)",
+      "published": "2016-08-01",
+      "source_url": "https://www.osfi-bsif.gc.ca/en/news/backgrounder-guideline-e-21-operational-risk-resilience",
+      "verification": "approximate: year verified, day not verified"
+    },
+    {
+      "doc_id": "e21-2023-draft",
+      "reg_id": "E-21",
+      "kind": "draft",
+      "title": "Draft Guideline E-21: Operational Resilience and Operational Risk Management (consultation, October 2023)",
+      "published": "2023-10-01",
+      "source_url": "https://www.osfi-bsif.gc.ca/en/news/backgrounder-guideline-e-21-operational-risk-resilience",
+      "verification": "approximate: month verified, day not verified"
+    },
+    {
+      "doc_id": "e21-2024",
+      "reg_id": "E-21",
+      "kind": "guideline",
+      "title": "Guideline E-21: Operational Risk Management and Resilience (final, August 2024)",
+      "published": "2024-08-22",
+      "source_url": "https://www.osfi-bsif.gc.ca/en/news/backgrounder-guideline-e-21-operational-risk-resilience",
+      "verification": "verified"
+    }
+  ],
+  "passages": [
+    {
+      "passage_id": "b20-2017-mqr",
+      "doc_id": "b20-2017",
+      "rule_key": "b20.mqr",
+      "heading": "Minimum qualifying rate for uninsured mortgages",
+      "text": "Lenders must test whether borrowers with uninsured mortgages can afford payments at a qualifying rate. The minimum qualifying rate is the greater of the Bank of Canada five-year conventional mortgage benchmark rate or the contractual mortgage rate plus 2 percent.",
+      "effective_from": "2018-01-01",
+      "answer": "the greater of the Bank of Canada five-year benchmark rate or the contract rate plus 2%"
+    },
+    {
+      "passage_id": "b20-2021-draft-mqr",
+      "doc_id": "b20-2021-draft",
+      "rule_key": "b20.mqr",
+      "heading": "Proposed minimum qualifying rate for uninsured mortgages",
+      "text": "OSFI proposes that the minimum qualifying rate for uninsured mortgages become the greater of the contractual mortgage rate plus 2 percent or a fixed floor of 5.25 percent, replacing the benchmark rate. Comments are requested before the proposal is finalized.",
+      "effective_from": null,
+      "answer": "proposed: the greater of the contract rate plus 2% or 5.25%"
+    },
+    {
+      "passage_id": "b20-2021-mqr",
+      "doc_id": "b20-2021-may",
+      "rule_key": "b20.mqr",
+      "heading": "Minimum qualifying rate for uninsured mortgages",
+      "text": "The minimum qualifying rate for uninsured mortgages is the greater of the contractual mortgage rate plus 2 percent or 5.25 percent. This replaces the benchmark rate as the floor.",
+      "effective_from": "2021-06-01",
+      "answer": "the greater of the contract rate plus 2% or 5.25%",
+      "grandfather": {
+        "situation_field": "commitment_date",
+        "before": "2021-06-01",
+        "note": "Mortgages approved or pre-approved before June 1, 2021 may be underwritten at the prior qualifying rate, at the lender's discretion."
+      }
+    },
+    {
+      "passage_id": "b20-2021-dec-mqr",
+      "doc_id": "b20-2021-dec",
+      "rule_key": "b20.mqr",
+      "heading": "Minimum qualifying rate for uninsured mortgages (annual review)",
+      "text": "After its annual review, OSFI keeps the minimum qualifying rate for uninsured mortgages unchanged: the greater of the contractual mortgage rate plus 2 percent or 5.25 percent. The rate has a buffer component and a floor component, and is reviewed every December.",
+      "effective_from": "2021-12-17",
+      "answer": "the greater of the contract rate plus 2% or 5.25% (reconfirmed unchanged)"
+    },
+    {
+      "passage_id": "b10-2009-scope",
+      "doc_id": "b10-2009",
+      "rule_key": "b10.scope",
+      "heading": "Scope: outsourcing arrangements",
+      "text": "The guideline applies to outsourcing of business activities, functions and processes to service providers. Expectations focus on material outsourcing arrangements, which institutions must identify and manage.",
+      "effective_from": "2009-03-01",
+      "answer": "outsourcing arrangements, with a focus on material outsourcing"
+    },
+    {
+      "passage_id": "b10-2022-draft-scope",
+      "doc_id": "b10-2022-draft",
+      "rule_key": "b10.scope",
+      "heading": "Proposed scope: all third-party arrangements",
+      "text": "The draft proposes expanding the guideline from outsourcing to all third-party arrangements, and replacing the material versus non-material outsourcing distinction with a risk-based approach.",
+      "effective_from": null,
+      "answer": "proposed: all third-party arrangements, risk-based"
+    },
+    {
+      "passage_id": "b10-2023-scope",
+      "doc_id": "b10-2023",
+      "rule_key": "b10.scope",
+      "heading": "Scope: third-party arrangements",
+      "text": "The guideline applies to all third-party arrangements, not only outsourcing. Institutions apply its expectations with an intensity proportional to the risk and criticality of each third-party arrangement.",
+      "effective_from": "2024-05-01",
+      "answer": "all third-party arrangements, applied in proportion to risk and criticality",
+      "transition_note": "Third-party arrangements that existed before May 1, 2024 should be reviewed and amended at the earliest opportunity."
+    },
+    {
+      "passage_id": "b10-2009-contracts",
+      "doc_id": "b10-2009",
+      "rule_key": "b10.contracts",
+      "heading": "Contract provisions for material outsourcing",
+      "text": "Material outsourcing arrangements must be covered by a written contract that addresses specified provisions, such as services, performance standards, audit rights, confidentiality and termination.",
+      "effective_from": "2009-03-01",
+      "answer": "written contracts with specified provisions for material outsourcing arrangements"
+    },
+    {
+      "passage_id": "b10-2023-contracts",
+      "doc_id": "b10-2023",
+      "rule_key": "b10.contracts",
+      "heading": "Contract provisions for third-party arrangements",
+      "text": "Written contracts for high-risk and critical third-party arrangements must address a minimum set of provisions. Where only a standardized contract is available, institutions manage the remaining risk through their third-party risk management program.",
+      "effective_from": "2024-05-01",
+      "answer": "minimum contract provisions for high-risk and critical third-party arrangements; standardized contracts allowed with compensating risk management"
+    },
+    {
+      "passage_id": "e21-2024-s1-gov",
+      "doc_id": "e21-2024",
+      "rule_key": "e21.governance",
+      "heading": "Section 1: Governance of operational risk and resilience",
+      "text": "Operational risk management and operational resilience must be properly governed, documented and implemented, with clear responsibilities for senior management, oversight by risk and compliance functions, and independent assurance such as internal audit.",
+      "effective_from": "2024-08-22",
+      "answer": "documented governance with senior management responsibility, risk and compliance oversight, and independent assurance"
+    },
+    {
+      "passage_id": "e21-2016-orm",
+      "doc_id": "e21-2016",
+      "rule_key": "e21.orm",
+      "heading": "Operational risk management framework",
+      "text": "Institutions must maintain an operational risk management framework appropriate to their size and complexity, including risk identification, assessment, monitoring and reporting of operational risk.",
+      "effective_from": "2016-08-01",
+      "answer": "an operational risk management framework suited to the institution's size and complexity"
+    },
+    {
+      "passage_id": "e21-2024-s2-orm",
+      "doc_id": "e21-2024",
+      "rule_key": "e21.orm",
+      "heading": "Section 2: Operational risk management",
+      "text": "Institutions must have an effective enterprise-wide operational risk management framework, using tools such as risk and control assessments, key risk indicators, operational risk event data analysis and scenario analysis.",
+      "effective_from": "2024-08-22",
+      "answer": "an enterprise-wide operational risk management framework with risk and control assessments, key risk indicators, event data analysis and scenario analysis"
+    },
+    {
+      "passage_id": "e21-2023-draft-resilience",
+      "doc_id": "e21-2023-draft",
+      "rule_key": "e21.resilience",
+      "heading": "Proposed expectations for operational resilience",
+      "text": "The draft proposes that institutions identify critical operations, set tolerances for disruption, map dependencies and test their ability to deliver critical operations through severe but plausible disruption.",
+      "effective_from": null,
+      "answer": "proposed: identify critical operations, set disruption tolerances, map dependencies and test resilience"
+    },
+    {
+      "passage_id": "e21-2024-s3-resilience",
+      "doc_id": "e21-2024",
+      "rule_key": "e21.resilience",
+      "heading": "Section 3: Operational resilience",
+      "text": "Institutions must be able to deliver their critical operations through disruption. They identify critical operations, set tolerances for disruption, map the dependencies behind each critical operation and test their resilience.",
+      "effective_from": "2026-09-01",
+      "answer": "identify critical operations, set disruption tolerances, map dependencies and test the ability to deliver critical operations through disruption"
+    },
+    {
+      "passage_id": "e21-2024-s4-keyareas",
+      "doc_id": "e21-2024",
+      "rule_key": "e21.key-areas",
+      "heading": "Section 4: Key areas of operational risk management that strengthen resilience",
+      "text": "Institutions must manage key areas that strengthen operational resilience: business continuity, disaster recovery, crisis management, change management, technology and cyber risk, third-party risk and data risk.",
+      "effective_from": "2025-09-01",
+      "answer": "business continuity, disaster recovery, crisis management, change management, technology and cyber risk, third-party risk and data risk"
+    },
+    {
+      "passage_id": "e21-2024-scenario",
+      "doc_id": "e21-2024",
+      "rule_key": "e21.scenario-testing",
+      "heading": "Scenario testing of all critical operations",
+      "text": "Institutions are expected to have completed scenario testing for all of their critical operations, testing whether each can stay within its tolerance for disruption under severe but plausible scenarios.",
+      "effective_from": "2027-09-01",
+      "answer": "scenario testing completed for all critical operations"
+    }
+  ]
+}

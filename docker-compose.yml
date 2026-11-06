@@ -1,0 +1,38 @@
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: inforce
+      POSTGRES_USER: inforce
+      POSTGRES_PASSWORD: inforce
+    volumes: [pgdata:/var/lib/postgresql/data]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U inforce"]
+      interval: 5s
+      retries: 10
+
+  ml:
+    build: ./ml-service
+    ports: ["8000:8000"]
+
+  api:
+    build: ./api
+    environment:
+      DATABASE_URL: jdbc:postgresql://db:5432/inforce
+      DATABASE_USER: inforce
+      DATABASE_PASSWORD: inforce
+      ML_BASE_URL: http://ml:8000
+    ports: ["8080:8080"]
+    depends_on:
+      db: { condition: service_healthy }
+      ml: { condition: service_started }
+
+  web:
+    build: ./web
+    environment:
+      API_URL: http://api:8080
+    ports: ["3000:3000"]
+    depends_on: [api]
+
+volumes:
+  pgdata:

@@ -1,0 +1,13 @@
+# Python
+.venv/
+__pycache__/
+.pytest_cache/
+# Java
+api/target/
+# Node
+web/node_modules/
+web/.next/
+web/screenshots/
+# misc
+.DS_Store
+.env

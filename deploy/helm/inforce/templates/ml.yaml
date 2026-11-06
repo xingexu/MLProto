@@ -1,0 +1,30 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ .Release.Name }}-ml
+  labels: {{- include "inforce.labels" . | nindent 4 }}
+spec:
+  replicas: {{ .Values.ml.replicas }}
+  selector:
+    matchLabels: { app: {{ .Release.Name }}-ml }
+  template:
+    metadata:
+      labels: { app: {{ .Release.Name }}-ml }
+    spec:
+      containers:
+        - name: ml
+          image: {{ include "inforce.image" (dict "root" . "name" "ml") }}
+          imagePullPolicy: {{ .Values.imagePullPolicy }}
+          ports: [{ containerPort: 8000 }]
+          readinessProbe: { httpGet: { path: /health, port: 8000 }, periodSeconds: 10 }
+          livenessProbe: { httpGet: { path: /health, port: 8000 }, periodSeconds: 20 }
+          resources: {{- toYaml .Values.ml.resources | nindent 12 }}
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ .Release.Name }}-ml
+  labels: {{- include "inforce.labels" . | nindent 4 }}
+spec:
+  selector: { app: {{ .Release.Name }}-ml }
+  ports: [{ port: 8000, targetPort: 8000 }]
